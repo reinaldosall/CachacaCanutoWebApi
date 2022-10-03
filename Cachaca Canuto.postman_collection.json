@@ -1,0 +1,393 @@
+{
+	"info": {
+		"_postman_id": "ecad0906-5c72-4602-bb3e-55d4cf2d6d63",
+		"name": "Cachaca Canuto",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "1741923"
+	},
+	"item": [
+		{
+			"name": "Clientes",
+			"item": [
+				{
+					"name": "Relatório Vendas",
+					"item": [
+						{
+							"name": "Total vendas",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://localhost:7052/clientes/totalVendas",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7052",
+									"path": [
+										"clientes",
+										"totalVendas"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Total vendas por data",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://localhost:7052/clientes/totalVendas?dataInicio=2022-7-1&dataFim=2022-10-1",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7052",
+									"path": [
+										"clientes",
+										"totalVendas"
+									],
+									"query": [
+										{
+											"key": "dataInicio",
+											"value": "2022-7-1"
+										},
+										{
+											"key": "dataFim",
+											"value": "2022-10-1"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Vendas por período",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://localhost:7052/clientes/vendas?dataInicio=2022-10-1&dataFim=2022-10-1",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7052",
+									"path": [
+										"clientes",
+										"vendas"
+									],
+									"query": [
+										{
+											"key": "dataInicio",
+											"value": "2022-10-1"
+										},
+										{
+											"key": "dataFim",
+											"value": "2022-10-1"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Clientes por nome",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7052/clientes?nome=ricardo",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7052",
+							"path": [
+								"clientes"
+							],
+							"query": [
+								{
+									"key": "nome",
+									"value": "ricardo"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Clientes por data nascimento",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7052/clientes?dataNascimentoInicio=1995-01-01&dataNascimentoFim=2000-01-01",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7052",
+							"path": [
+								"clientes"
+							],
+							"query": [
+								{
+									"key": "dataNascimentoInicio",
+									"value": "1995-01-01"
+								},
+								{
+									"key": "dataNascimentoFim",
+									"value": "2000-01-01"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Clientes por id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7052/clientes/963a997a-6bfc-41b2-8125-c27d2f4c4de4",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7052",
+							"path": [
+								"clientes",
+								"963a997a-6bfc-41b2-8125-c27d2f4c4de4"
+							],
+							"query": [
+								{
+									"key": "dataNascimentoFim",
+									"value": "2022-01-01",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Produtos",
+			"item": [
+				{
+					"name": "Relatório Vendas",
+					"item": [
+						{
+							"name": "Total vendas",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://localhost:7052/produtos/totalVendas",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7052",
+									"path": [
+										"produtos",
+										"totalVendas"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Produto por nome",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7052/produtos?nome=cachaça",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7052",
+							"path": [
+								"produtos"
+							],
+							"query": [
+								{
+									"key": "nome",
+									"value": "cachaça"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Produto por teor alcoolico",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7052/produtos?teorAlcoolicoInicio=50&teorAlcoolicoFim=70",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7052",
+							"path": [
+								"produtos"
+							],
+							"query": [
+								{
+									"key": "teorAlcoolicoInicio",
+									"value": "50"
+								},
+								{
+									"key": "teorAlcoolicoFim",
+									"value": "70"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Produto por id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7052/produtos/d07e7eeb-c4bf-4449-a666-7bc52d10e405",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7052",
+							"path": [
+								"produtos",
+								"d07e7eeb-c4bf-4449-a666-7bc52d10e405"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Vendas",
+			"item": [
+				{
+					"name": "Vendas por data",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7052/vendas?numeroPagina=1&itensPorPagina=10&dataInicio=2022-7-01&dataFim=2022-10-1",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7052",
+							"path": [
+								"vendas"
+							],
+							"query": [
+								{
+									"key": "numeroPagina",
+									"value": "1"
+								},
+								{
+									"key": "itensPorPagina",
+									"value": "10"
+								},
+								{
+									"key": "dataInicio",
+									"value": "2022-7-01"
+								},
+								{
+									"key": "dataFim",
+									"value": "2022-10-1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Vendas por nome cliente",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7052/vendas?numeroPagina=1&itensPorPagina=10&nomeCliente=rodrigo magnus",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7052",
+							"path": [
+								"vendas"
+							],
+							"query": [
+								{
+									"key": "numeroPagina",
+									"value": "1"
+								},
+								{
+									"key": "itensPorPagina",
+									"value": "10"
+								},
+								{
+									"key": "nomeCliente",
+									"value": "rodrigo magnus"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Vendas por nome produto",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7052/vendas?numeroPagina=1&itensPorPagina=10&nomeProduto=princesa isabel",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7052",
+							"path": [
+								"vendas"
+							],
+							"query": [
+								{
+									"key": "numeroPagina",
+									"value": "1"
+								},
+								{
+									"key": "itensPorPagina",
+									"value": "10"
+								},
+								{
+									"key": "nomeProduto",
+									"value": "princesa isabel"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
