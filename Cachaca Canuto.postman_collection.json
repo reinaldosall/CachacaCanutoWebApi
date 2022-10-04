@@ -18,12 +18,12 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "https://localhost:7052/clientes/totalVendas",
-									"protocol": "https",
+									"raw": "http://localhost:8081/clientes/totalVendas",
+									"protocol": "http",
 									"host": [
 										"localhost"
 									],
-									"port": "7052",
+									"port": "8081",
 									"path": [
 										"clientes",
 										"totalVendas"
@@ -38,12 +38,12 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "https://localhost:7052/clientes/totalVendas?dataInicio=2022-7-1&dataFim=2022-10-1",
-									"protocol": "https",
+									"raw": "http://localhost:8081/clientes/totalVendas?dataInicio=2022-7-1&dataFim=2022-10-1",
+									"protocol": "http",
 									"host": [
 										"localhost"
 									],
-									"port": "7052",
+									"port": "8081",
 									"path": [
 										"clientes",
 										"totalVendas"
@@ -68,12 +68,12 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "https://localhost:7052/clientes/vendas?dataInicio=2022-10-1&dataFim=2022-10-1",
-									"protocol": "https",
+									"raw": "http://localhost:8081/clientes/vendas?dataInicio=2022-10-1&dataFim=2022-10-1",
+									"protocol": "http",
 									"host": [
 										"localhost"
 									],
-									"port": "7052",
+									"port": "8081",
 									"path": [
 										"clientes",
 										"vendas"
@@ -100,12 +100,12 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://localhost:7052/clientes?nome=ricardo",
-							"protocol": "https",
+							"raw": "http://localhost:8081/clientes?nome=ricardo",
+							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "7052",
+							"port": "8081",
 							"path": [
 								"clientes"
 							],
@@ -125,12 +125,12 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://localhost:7052/clientes?dataNascimentoInicio=1995-01-01&dataNascimentoFim=2000-01-01",
-							"protocol": "https",
+							"raw": "http://localhost:8081/clientes?dataNascimentoInicio=1995-01-01&dataNascimentoFim=2000-01-01",
+							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "7052",
+							"port": "8081",
 							"path": [
 								"clientes"
 							],
@@ -154,12 +154,12 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://localhost:7052/clientes/963a997a-6bfc-41b2-8125-c27d2f4c4de4",
-							"protocol": "https",
+							"raw": "http://localhost:8081/clientes/963a997a-6bfc-41b2-8125-c27d2f4c4de4",
+							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "7052",
+							"port": "8081",
 							"path": [
 								"clientes",
 								"963a997a-6bfc-41b2-8125-c27d2f4c4de4"
@@ -189,12 +189,12 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "https://localhost:7052/produtos/totalVendas",
-									"protocol": "https",
+									"raw": "http://localhost:8081/produtos/totalVendas",
+									"protocol": "http",
 									"host": [
 										"localhost"
 									],
-									"port": "7052",
+									"port": "8081",
 									"path": [
 										"produtos",
 										"totalVendas"
@@ -211,12 +211,12 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://localhost:7052/produtos?nome=cachaça",
-							"protocol": "https",
+							"raw": "http://localhost:8081/produtos?nome=cachaça",
+							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "7052",
+							"port": "8081",
 							"path": [
 								"produtos"
 							],
@@ -236,12 +236,12 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://localhost:7052/produtos?teorAlcoolicoInicio=50&teorAlcoolicoFim=70",
-							"protocol": "https",
+							"raw": "http://localhost:8081/produtos?teorAlcoolicoInicio=50&teorAlcoolicoFim=70",
+							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "7052",
+							"port": "8081",
 							"path": [
 								"produtos"
 							],
@@ -265,12 +265,12 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://localhost:7052/produtos/d07e7eeb-c4bf-4449-a666-7bc52d10e405",
-							"protocol": "https",
+							"raw": "http://localhost:8081/produtos/d07e7eeb-c4bf-4449-a666-7bc52d10e405",
+							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "7052",
+							"port": "8081",
 							"path": [
 								"produtos",
 								"d07e7eeb-c4bf-4449-a666-7bc52d10e405"
@@ -290,12 +290,12 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://localhost:7052/vendas?numeroPagina=1&itensPorPagina=10&dataInicio=2022-7-01&dataFim=2022-10-1",
-							"protocol": "https",
+							"raw": "http://localhost:8081/vendas?numeroPagina=1&itensPorPagina=10&dataInicio=2022-7-01&dataFim=2022-10-1",
+							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "7052",
+							"port": "8081",
 							"path": [
 								"vendas"
 							],
@@ -327,12 +327,12 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://localhost:7052/vendas?numeroPagina=1&itensPorPagina=10&nomeCliente=rodrigo magnus",
-							"protocol": "https",
+							"raw": "http://localhost:8081/vendas?numeroPagina=1&itensPorPagina=10&nomeCliente=rodrigo magnus",
+							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "7052",
+							"port": "8081",
 							"path": [
 								"vendas"
 							],
@@ -360,12 +360,12 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://localhost:7052/vendas?numeroPagina=1&itensPorPagina=10&nomeProduto=princesa isabel",
-							"protocol": "https",
+							"raw": "http://localhost:8081/vendas?numeroPagina=1&itensPorPagina=10&nomeProduto=princesa isabel",
+							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "7052",
+							"port": "8081",
 							"path": [
 								"vendas"
 							],
